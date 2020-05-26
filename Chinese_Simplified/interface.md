@@ -764,7 +764,7 @@
 | market_type | 是 | string | 市场类型 |  | 1 |
 | market | 是 | string | 市场 |  |  |
 | token | 是 | string | 币名 |  |  |
-| type | 是 | string | 买/卖 |  | 1买 2卖 |
+| type | 是 | string | 买/卖 |  | 1:买 2:卖 |
 | price | 是 | string | 价格 |  |  |
 | amount | 是 | string | 数量 |  |  |
 
