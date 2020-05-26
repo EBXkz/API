@@ -782,7 +782,7 @@
 | market_type | yes | string | market type |  | 1 |
 | market | yes | string | market |  |  |
 | token | yes | string | token name |  |  |
-| type | yes | string | buy/sell(1buy 2sell) |  | 1 or 2 |
+| type | yes | string | buy/sell(1:buy 2:sell) |  | 1 or 2 |
 | price | yes | string | price |  |  |
 | amount | yes | string | amount |  |  |
 
