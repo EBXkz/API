@@ -50,6 +50,7 @@
                 "user_id": 1,
                 "org_id": 12,
                 "token": "BTC",
+		"token_as": "ETH",
                 "usable": "0",
                 "locked": "0",
                 "total": "0"
@@ -58,6 +59,7 @@
                 "user_id": 1,
                 "org_id": 12,
                 "token": "ETH",
+		"token_as": "ETH",
                 "usable": "0",
                 "locked": "0",
                 "total": "0"
@@ -76,6 +78,7 @@
                 "user_id": user id,
                 "org_id": organization id,
                 "token": token name,
+		"token_as": token display name,
                 "usable": usable asset,
                 "locked": locked asset,
                 "total": total asset
