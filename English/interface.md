@@ -477,7 +477,8 @@
                         "KRW":Korean Won
                     },
                     "latest_price": latest price,
-                    "percent_change": percent change                 }
+                    "percent_change": percent change
+                 }
             ],
             "ETH":[
             ]
@@ -569,14 +570,14 @@
                 "created_at": "2018-08-31 10:26:14",
                 "price": "1",
                 "amount": "1",
-                "dominance": 1
+                "dominance": "1"
             },
             {
                 "id": 2,
                 "created_at": "2018-08-31 10:26:14",
                 "price": "1",
                 "amount": "1",
-                "dominance": 1
+                "dominance": "1"
             }
         ]
     }
