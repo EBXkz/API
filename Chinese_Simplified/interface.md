@@ -575,7 +575,7 @@
 
 ```
 
-## 单个symbol市场深度行情(停用)
+## 单个symbol市场深度行情
 
 ### GET /api_market/market/depth
 
