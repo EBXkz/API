@@ -2,7 +2,7 @@
 
 ## 生成签名
 
-按照ASCII码的顺序对参数名进行排序，转化为json字符串，使用私钥签名，得到签名计算结果进行 Base64编码，然后进行url编码。以查询资产余额接口为例进行说明
+按照ASCII码的顺序对参数名进行排序，转化为json字符串，使用私钥签名，得到签名计算结果进行 Base64编码，然后进行url编码。具体说明：
 
 请求参数：
 
@@ -29,7 +29,7 @@ size=10
 
 ```
 
-计算签名，将参数字符串、私钥传入加密函数，用sha1算法生成签名，计算结果并进行Base64编码：
+计算签名，使用参数字符串、私钥生成RSA签名，RSA签名算法为SHA1，然后对结果进行Base64编码：
 
 ```
 c6jVyjdQ+KX5oDZGDOr0phH0JZPCZ4lgxva7iwPr2J9cHsCVNhJEmnUzHIYIUlemzSreXzl8Xt39mkQYPaH/Tt8eLqZf8QlUPIigy3MlKzq/BTDzXkJc4vna9ltT42W6ePwNi9q3Otm6FK6gMhiXqWwwUwa7OciHjYYehEomzoo=
