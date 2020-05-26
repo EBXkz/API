@@ -943,7 +943,7 @@
 
 | parameter name | essential or not | data type | description | default | range |
 | --- | --- | --- | --- | --- | --- |
-| arr_order_no | yes | array | status |  |  |
+| arr_order_no | yes | array |  |  |  |
 
 **response parameter**
 
