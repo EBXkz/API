@@ -1040,7 +1040,7 @@
 
 | Parameter name | essential or not | data type | description | default | range |
 | --- | --- | --- | --- | --- | --- |
-| order_nos | yes | json | order number |  | "["2018091315164516313901209422","2018091315164516313901209422"]" |
+| order_nos | yes | json string | order number |  | "["2018091315164516313901209422"]" |
 
 **response parameter**
 
@@ -1061,7 +1061,7 @@
 
 | Parameter name | essential or not | data type | description | default | range |
 | --- | --- | --- | --- | --- | --- |
-| order_nos | yes | json | group of order number |  | "["2018091315164516313901209422","2018091315164516313901209422"]" |
+| order_nos | yes | json string | group of order number |  | "["2018091315164516313901209422","2018091315164516313901209422"]" |
 
 **response parameter**
 
