@@ -2,7 +2,7 @@
 
 ## Sign generation
 
-Sort the parameters by ASCII code , transfer it into json, get signed by private key, do Base64 encoding and do url encoding. Take Asset balance check for example:
+Sort the parameters by ASCII code , transfer it into json, get signed by private key, do Base64 encoding and do url encoding. for example:
 
 Request parameter：
 
@@ -22,14 +22,14 @@ size=10
 
 ```
 
-transfer it into json：
+transfer it into json string：
 
 ```
 {"api_key":"eb4f25dd532c14cee5e9b0301c8d4671","page":"1","size":"10"}
 
 ```
 
-Input private key, to generate sign by sha1 algorithm. Do Base64 encoding:
+Calculate the signature, use the parameter string and private key to generate RSA signature, the RSA signature algorithm is SHA1, and then Base64 encoding the result:
 
 ```
 c6jVyjdQ+KX5oDZGDOr0phH0JZPCZ4lgxva7iwPr2J9cHsCVNhJEmnUzHIYIUlemzSreXzl8Xt39mkQYPaH/Tt8eLqZf8QlUPIigy3MlKzq/BTDzXkJc4vna9ltT42W6ePwNi9q3Otm6FK6gMhiXqWwwUwa7OciHjYYehEomzoo=
