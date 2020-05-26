@@ -50,7 +50,7 @@
                 "user_id": 1,
                 "org_id": 12,
                 "token": "BTC",
-		"token_as": "ETH",
+		"token_as": "BTC",
                 "usable": "0",
                 "locked": "0",
                 "total": "0"

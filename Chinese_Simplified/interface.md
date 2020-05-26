@@ -540,6 +540,8 @@
         "amount": 交易币数额,
         "volume": 市场币数额,
         "dominance":主动成交方 1买方 2卖方
+        "trade_no":order no,
+        "sorting":sort field
     }
 ]
 
